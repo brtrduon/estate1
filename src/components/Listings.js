@@ -4,7 +4,7 @@ export default class Filter extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      
     }
 
     this.loopListings = this.loopListings.bind(this);

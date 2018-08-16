@@ -10,7 +10,7 @@ var listingsData = [
             'gym',
         ],
         homeType: 'Apartment',
-        image: ''
+        image: '../img/apt0.jpg'
     },
     {
         address: '1855 Lucretia Ave',
@@ -23,7 +23,7 @@ var listingsData = [
             'gym',
         ],
         homeType: 'Condo',
-        image: ''
+        image: '../img/cd0.jpg'
     },
     {
         address: '3434 Silver Creek Rd',
@@ -36,7 +36,7 @@ var listingsData = [
             'gym',
         ],
         homeType: 'Apartment',
-        image: ''
+        image: '../img/apt1.jpg'
     },
     {
         address: '180 Woz Wy',
@@ -48,7 +48,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'House',
-        image: ''
+        image: '../img/h0.jpg'
     },
     {
         address: '665 Wool Creek Dr',
@@ -62,7 +62,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Ranch',
-        image: ''
+        image: '../img/r0.jpg'
     },
     {
         address: '1661 Senter Rd',
@@ -72,7 +72,7 @@ var listingsData = [
         floorspace: 100,
         extras: [],
         homeType: 'Parking Space',
-        image: ''
+        image: '../img/parking.jpg'
     },
     {
         address: '830 N Capitol Ave',
@@ -86,7 +86,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'House',
-        image: ''
+        image: '../img/h1.jpg'
     },
     {
         address: '1377 Piedmont Rd',
@@ -100,7 +100,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Condo',
-        image: ''
+        image: '../img/cd1.png'
     },
     {
         address: '2635 Homestead Rd',
@@ -114,7 +114,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Ranch',
-        image: ''
+        image: '../img/r1.jpg'
     },
     {
         address: '3014 El Camino Real',
@@ -127,7 +127,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Apartment',
-        image: ''
+        image: '../img/apt2.jpg'
     },
     {
         address: '275 Main St',
@@ -139,7 +139,7 @@ var listingsData = [
             'gym',
         ],
         homeType: 'Apartment',
-        image: ''
+        image: '../img/apt3.jpg'
     },
     {
         address: '680 Stanford Ave',
@@ -149,7 +149,7 @@ var listingsData = [
         floorspace: 800,
         extras: [],
         homeType: 'Desert',
-        image: ''
+        image: '../img/desert.jpg'
     },
     {
         address: '1600 Amphitheatre Pkwy',
@@ -163,7 +163,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Condo',
-        image: ''
+        image: '../img/cd2.jpg'
     },
     {
         address: '231 Washington Ave',
@@ -177,7 +177,7 @@ var listingsData = [
             'elevator'
         ],
         homeType: 'Shack',
-        image: ''
+        image: '../img/shack.jpg'
     },
 ];
 

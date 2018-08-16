@@ -2,8 +2,12 @@
 @import 'abstracts/variables';
 
 @import 'base/base';
+@import 'base/typography';
 
+@import 'components/filter';
 @import 'components/header';
+@import 'components/index';
+@import 'components/listings';
 
 @import 'layout/grid';
 

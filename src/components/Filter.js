@@ -4,7 +4,7 @@ class Filter extends Component {
     constructor () {
         super()
         this.state = {
-          name: 'Joe'
+        
         }
     
         this.cities = this.cities.bind(this);
@@ -13,7 +13,6 @@ class Filter extends Component {
       }
     
     componentWillMount() {
-        console.log(this.props)
         this.props.populateAction();
     }
 

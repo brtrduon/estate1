@@ -161,7 +161,7 @@ class Index extends Component {
         return (
             <div>
                 <Header />
-                <section id='main'>
+                <section id='index'>
                     <Filter change={this.change} globalState={this.state} populateAction={this.populateForms} />
                     <Listings listingsData={this.state.filteredData} globalState={this.state} change={this.change} changeView={this.changeView} />
                 </section>
