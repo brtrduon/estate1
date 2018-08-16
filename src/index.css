@@ -115,7 +115,7 @@ header {
   min-height: 100vh; }
 
 #listings {
-  width: 70%;
+  width: 80%;
   float: left;
   padding: 15px;
   background: #f7f7f7; }
@@ -279,7 +279,8 @@ header {
   width: 25%;
   display: inline-block;
   vertical-align: top;
-  padding: 0 15px; }
+  padding: 0 15px;
+  margin: 0 0 1.5rem 0; }
 
 .col-md-9 {
   width: 75%;

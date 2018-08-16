@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-// import { BrowserRouter, Route } from 'react-router-dom';
-// no router needed if no backend?
 import listingsData from './data/listingsData';
 
 import Header from './components/Header';
@@ -69,7 +67,7 @@ class Index extends Component {
         
     filteredData() {
         var newData = this.state.listingsData.filter((item) => {
-        return item.price >= this.state.min_price && item.price <= this.state.max_price && item.floorSpace >= this.state.min_floor_space && item.floorSpace <= this.state.max_floor_space && item.rooms >= this.state.bedrooms
+            return item.price >= this.state.min_price && item.price <= this.state.max_price && item.floorSpace >= this.state.min_floor_space && item.floorSpace <= this.state.max_floor_space && item.rooms >= this.state.bedrooms
         });
     
         if (this.state.city !== 'All') {
@@ -102,7 +100,7 @@ class Index extends Component {
                 var searchText = this.state.search.toLowerCase();
                 var n = city.match(searchText);
         
-                if (n != null) {
+                if (n !== null) {
                     return true;
                 }
             })
