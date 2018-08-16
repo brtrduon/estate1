@@ -3,7 +3,6 @@ header {
     color: white;
     overflow: auto;
     padding: 20px 15px;
-    font-size: 1.4rem;
 
     .logo {
         float: left;
@@ -16,6 +15,7 @@ header {
             color: white;
             text-decoration: none;
             padding: 7px 20px;
+            font-size: 1.4rem;
             text-transform: capitalize;
             transition: all 0.2s ease-in;
 

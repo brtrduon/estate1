@@ -1,0 +1,26 @@
+#pagination {
+    width: 100%;
+    text-align: center;
+    
+    .pages {
+        display: inline-block;
+        background: $color-white;
+        box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+        -webkit-box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+        -moz-box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+        
+        li {
+            padding: 20px 30px;
+            display: inline-block;
+
+            
+            &:hover,
+            &.active {
+                color: $color-white;
+                font-weight: 700;
+                background: $color-primary-light;
+                cursor: pointer;
+            }
+        }
+    }
+}
