@@ -1,4 +1,4 @@
-var listingData = [
+var listingsData = [
     {
         address: '1776 Educational Park Dr',
         city: 'San Jose',
@@ -181,4 +181,4 @@ var listingData = [
     },
 ];
 
-export default listingData;
+export default listingsData;
