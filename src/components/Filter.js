@@ -4,7 +4,7 @@ class Filter extends Component {
     constructor () {
         super()
         this.state = {
-        
+            
         }
     
         this.cities = this.cities.bind(this);

@@ -2,9 +2,10 @@ var listingsData = [
     {
         address: '1776 Educational Park Dr',
         city: 'San Jose',
+        state: 'CA',
         rooms: 3,
-        price: 925000,
-        floorspace: 800,
+        price: 92500,
+        floorSpace: 800,
         extras: [
             'pool',
             'gym',
@@ -15,9 +16,10 @@ var listingsData = [
     {
         address: '1855 Lucretia Ave',
         city: 'San Jose',
+        state: 'CA',
         rooms: 1,
-        price: 400000,
-        floorspace: 500,
+        price: 40000,
+        floorSpace: 500,
         extras: [
             'pool',
             'gym',
@@ -28,9 +30,10 @@ var listingsData = [
     {
         address: '3434 Silver Creek Rd',
         city: 'San Jose',
+        state: 'CA',
         rooms: 2,
-        price: 123340,
-        floorspace: 750,
+        price: 12334,
+        floorSpace: 750,
         extras: [
             'pool',
             'gym',
@@ -41,9 +44,10 @@ var listingsData = [
     {
         address: '180 Woz Wy',
         city: 'San Jose',
+        state: 'CA',
         rooms: 5,
-        price: 1234567,
-        floorspace: 1000,
+        price: 123456,
+        floorSpace: 1000,
         extras: [
             'elevator'
         ],
@@ -53,9 +57,10 @@ var listingsData = [
     {
         address: '665 Wool Creek Dr',
         city: 'San Jose',
+        state: 'CA',
         rooms: 3,
         price: 10000,
-        floorspace: 400,
+        floorSpace: 400,
         extras: [
             'pool',
             'gym',
@@ -67,9 +72,10 @@ var listingsData = [
     {
         address: '1661 Senter Rd',
         city: 'San Jose',
+        state: 'CA',
         rooms: 0,
         price: 800,
-        floorspace: 100,
+        floorSpace: 100,
         extras: [],
         homeType: 'Parking Space',
         image: '../img/parking.jpg'
@@ -77,9 +83,10 @@ var listingsData = [
     {
         address: '830 N Capitol Ave',
         city: 'San Jose',
+        state: 'CA',
         rooms: 2,
         price: 200000,
-        floorspace: 800,
+        floorSpace: 800,
         extras: [
             'pool',
             'gym',
@@ -91,9 +98,10 @@ var listingsData = [
     {
         address: '1377 Piedmont Rd',
         city: 'San Jose',
+        state: 'CA',
         rooms: 4,
         price: 300000,
-        floorspace: 1200,
+        floorSpace: 1200,
         extras: [
             'pool',
             'gym',
@@ -105,9 +113,10 @@ var listingsData = [
     {
         address: '2635 Homestead Rd',
         city: 'Santa Clara',
+        state: 'CA',
         rooms: 5,
-        price: 900000,
-        floorspace: 3000,
+        price: 90000,
+        floorSpace: 3000,
         extras: [
             'pool',
             'gym',
@@ -119,9 +128,10 @@ var listingsData = [
     {
         address: '3014 El Camino Real',
         city: 'Santa Clara',
+        state: 'CA',
         rooms: 2,
         price: 13000,
-        floorspace: 800,
+        floorSpace: 800,
         extras: [
             'gym',
             'elevator'
@@ -132,9 +142,10 @@ var listingsData = [
     {
         address: '275 Main St',
         city: 'Milpitas',
+        state: 'CA',
         rooms: 1,
         price: 9000,
-        floorspace: 400,
+        floorSpace: 400,
         extras: [
             'gym',
         ],
@@ -144,9 +155,10 @@ var listingsData = [
     {
         address: '680 Stanford Ave',
         city: 'Fremont',
+        state: 'CA',
         rooms: 0,
-        price: 1000000,
-        floorspace: 800,
+        price: 100000,
+        floorSpace: 800,
         extras: [],
         homeType: 'Desert',
         image: '../img/desert.jpg'
@@ -154,9 +166,10 @@ var listingsData = [
     {
         address: '1600 Amphitheatre Pkwy',
         city: 'Mountain View',
+        state: 'CA',
         rooms: 1,
-        price: 900000,
-        floorspace: 2800,
+        price: 90000,
+        floorSpace: 2800,
         extras: [
             'pool',
             'gym',
@@ -168,9 +181,10 @@ var listingsData = [
     {
         address: '231 Washington Ave',
         city: 'Sunnyvale',
+        state: 'CA',
         rooms: 0,
-        price: 450000,
-        floorspace: 10,
+        price: 45000,
+        floorSpace: 10,
         extras: [
             'pool',
             'gym',

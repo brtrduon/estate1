@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import listingsData from './data/listingsData';
 
+import listingsData from './data/listingsData';
 import Header from './components/Header';
 import Filter from './components/Filter';
 import Listings from './components/Listings';
@@ -17,9 +17,9 @@ class Index extends Component {
             homeType: 'All',
             bedrooms: '0',
             min_price: 0,
-            max_price: 100000,
+            max_price: 10000000,
             min_floor_space: 0,
-            max_floor_space: 50000,
+            max_floor_space: 10000000,
             elevator: false,
             finished_basement: false,
             gym: false,
@@ -40,11 +40,11 @@ class Index extends Component {
     componentWillMount() {
         var listingsData = this.state.listingsData.sort((a, b) => {
             return a.price - b.price;
-            });
-            
-            this.setState({
+        });
+        
+        this.setState({
             listingsData
-            })
+        })
     }
     
     change(event) {
@@ -54,7 +54,7 @@ class Index extends Component {
         this.setState({
             [name]: value
             }, () => {
-            console.log(this.state);
+            // console.log(this.state);
             this.filteredData();
         })
     }
@@ -69,6 +69,8 @@ class Index extends Component {
         var newData = this.state.listingsData.filter((item) => {
             return item.price >= this.state.min_price && item.price <= this.state.max_price && item.floorSpace >= this.state.min_floor_space && item.floorSpace <= this.state.max_floor_space && item.rooms >= this.state.bedrooms
         });
+
+        console.log(newData)
     
         if (this.state.city !== 'All') {
             newData = newData.filter((item) => {
@@ -151,11 +153,13 @@ class Index extends Component {
                 cities
             }
         }, () => {
-            console.log(this.state);
+            // console.log(this.state);
         })
     }
 
     render() {
+        // console.log(this.state.filteredData)
+
         return (
             <div>
                 <Header />

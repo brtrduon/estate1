@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 
-export default class Filter extends Component {
+export default class Listings extends Component {
   constructor () {
     super()
     this.state = {
