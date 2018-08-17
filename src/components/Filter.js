@@ -92,10 +92,6 @@ class Filter extends Component {
                             <input name='swimming_pool' value='swimming_pool' type='checkbox' onChange={this.props.change} />
                         </label>
                         <label htmlFor='extras'>
-                            <span>Finished Basement</span>
-                            <input name='finished_basement' value='finished_basement' type='checkbox' onChange={this.props.change} />
-                        </label>
-                        <label htmlFor='extras'>
                             <span>Gym</span>
                             <input name='gym' value='gym' type='checkbox' onChange={this.props.change} />
                         </label>

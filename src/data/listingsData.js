@@ -62,7 +62,6 @@ var listingsData = [
         price: 10000,
         floorSpace: 400,
         extras: [
-            'pool',
             'gym',
             'elevator'
         ],
@@ -171,7 +170,6 @@ var listingsData = [
         price: 90000,
         floorSpace: 2800,
         extras: [
-            'pool',
             'gym',
             'elevator'
         ],
@@ -186,8 +184,6 @@ var listingsData = [
         price: 45000,
         floorSpace: 10,
         extras: [
-            'pool',
-            'gym',
             'elevator'
         ],
         homeType: 'Shack',

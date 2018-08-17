@@ -21,7 +21,6 @@ class Index extends Component {
             min_floor_space: 0,
             max_floor_space: 10000000,
             elevator: false,
-            finished_basement: false,
             gym: false,
             swimming_pool: false,
             filteredData: listingsData,
@@ -69,8 +68,6 @@ class Index extends Component {
         var newData = this.state.listingsData.filter((item) => {
             return item.price >= this.state.min_price && item.price <= this.state.max_price && item.floorSpace >= this.state.min_floor_space && item.floorSpace <= this.state.max_floor_space && item.rooms >= this.state.bedrooms
         });
-
-        console.log(newData)
     
         if (this.state.city !== 'All') {
             newData = newData.filter((item) => {
@@ -81,6 +78,36 @@ class Index extends Component {
         if (this.state.homeType !== 'All') {
             newData = newData.filter((item) => {
                 return item.homeType === this.state.homeType
+            })
+        }
+
+        if (this.state.elevator !== false) {
+            newData = newData.filter((item) => {
+                for(var i in item.extras) {
+                    if (item.extras[i] == 'elevator') {
+                        return item.extras[i];
+                    }
+                }
+            })
+        }
+
+        if (this.state.gym !== false) {
+            newData = newData.filter((item) => {
+                for(var i in item.extras) {
+                    if (item.extras[i] == 'gym') {
+                        return item.extras[i];
+                    }
+                }
+            })
+        }
+
+        if (this.state.swimming_pool !== false) {
+            newData = newData.filter((item) => {
+                for(var i in item.extras) {
+                    if (item.extras[i] == 'pool') {
+                        return item.extras[i];
+                    }
+                }
             })
         }
     
@@ -153,13 +180,11 @@ class Index extends Component {
                 cities
             }
         }, () => {
-            // console.log(this.state);
+            console.log(this.state);
         })
     }
 
     render() {
-        // console.log(this.state.filteredData)
-
         return (
             <div>
                 <Header />
