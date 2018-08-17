@@ -4,11 +4,18 @@ export default class Listings extends Component {
   constructor () {
     super()
     this.state = {
-      
+      show: false
     }
 
     this.loopListings = this.loopListings.bind(this);
+    this.onClick = this.onClick.bind(this);
   }
+
+  onClick() {
+    this.state.show = !this.state.show
+    console.log(this.state.show)
+  }
+
 
   loopListings() {
     var {listingsData} = this.props
@@ -45,7 +52,7 @@ export default class Listings extends Component {
                         <span>{listing.rooms} bedrooms</span>
                       </div>
                     </div>
-                    <div className='view-btn'>
+                    <div className='view-btn' onClick={this.onClick}>
                       View Listing
                     </div>
                   </div>
@@ -88,7 +95,7 @@ export default class Listings extends Component {
                       <span>{listing.rooms} bedrooms</span>
                     </div>
                   </div>
-                  <div className='view-btn'>
+                  <div className='view-btn' onClick={this.onClick}>
                     View Listing
                   </div>
                 </div>

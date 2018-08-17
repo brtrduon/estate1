@@ -3,8 +3,7 @@ import React, { Component} from 'react'
 class Filter extends Component {
     constructor () {
         super()
-        this.state = {
-            
+        this.state = {    
         }
     
         this.cities = this.cities.bind(this);
