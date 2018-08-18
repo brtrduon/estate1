@@ -225,15 +225,16 @@ header {
           display: inline-block;
           vertical-align: top; }
           #listings .listings-results .listing-img .details .user-details .user-name {
-            font-weight: 300;
-            font-size: 0.9rem;
+            font-weight: 400;
+            font-size: 1.2rem;
             display: block;
             color: white;
             margin-top: 3px;
             margin-bottom: 5px; }
           #listings .listings-results .listing-img .details .user-details .post-date {
             display: block;
-            color: rgba(255, 255, 255, 0.7); }
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.4rem; }
         #listings .listings-results .listing-img .details .listing-details {
           margin-top: 20px;
           margin-bottom: 10px; }

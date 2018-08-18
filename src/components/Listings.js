@@ -12,8 +12,10 @@ export default class Listings extends Component {
   }
 
   onClick() {
-    this.state.show = !this.state.show
-    console.log(this.state.show)
+    // this.state.show = !this.state.show
+    // console.log(this.state.show)
+
+    console.log(this.loopListings)
   }
 
 
@@ -39,8 +41,8 @@ export default class Listings extends Component {
                   </div>
                   <div className='col-md-9'>
                     <div className='user-details'>
-                      <span className='user-name'>Nina Smith</span>
-                      <span className='post-date'>05/05/2017</span>
+                      <span className='user-name'>Posted by: {listing.seller}</span>
+                      <span className='post-date'>Date Posted: {listing.date}</span>
                     </div>
                     <div className='listing-details'>
                       <div className='floor-space'>
@@ -82,8 +84,8 @@ export default class Listings extends Component {
                 </div>
                 <div className='col-md-9'>
                   <div className='user-details'>
-                    <span className='user-name'>Nina Smith</span>
-                    <span className='post-date'>05/05/2017</span>
+                    <span className='user-name'>Posted by: {listing.seller}</span>
+                    <span className='post-date'>Date Posted: {listing.date}</span>
                   </div>
                   <div className='listing-details'>
                     <div className='floor-space'>

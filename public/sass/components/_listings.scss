@@ -144,8 +144,8 @@
                     vertical-align: top;
 
                     .user-name {
-                        font-weight: 300;
-                        font-size: 0.9rem;
+                        font-weight: 400;
+                        font-size: 1.2rem;
                         display: block;
                         color: rgba($color-white, 1);
                         margin-top: 3px;
@@ -155,6 +155,7 @@
                     .post-date {
                         display: block;
                         color: rgba(255, 255, 255, 0.7);
+                        font-size: 1.4rem;
                     }
                 }
 

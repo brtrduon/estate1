@@ -1,5 +1,7 @@
 var listingsData = [
     {
+        seller: 'Nina Smith',
+        date: '05/05/2017',
         address: '1776 Educational Park Dr',
         city: 'San Jose',
         state: 'CA',
@@ -14,6 +16,8 @@ var listingsData = [
         image: '../img/apt0.jpg'
     },
     {
+        seller: 'Juan Cena',
+        date: '06/10/2017',
         address: '1855 Lucretia Ave',
         city: 'San Jose',
         state: 'CA',
@@ -28,6 +32,8 @@ var listingsData = [
         image: '../img/cd0.jpg'
     },
     {
+        seller: 'Jamie Sato',
+        date: '01/15/2018',
         address: '3434 Silver Creek Rd',
         city: 'San Jose',
         state: 'CA',
@@ -42,6 +48,8 @@ var listingsData = [
         image: '../img/apt1.jpg'
     },
     {
+        seller: 'Tod White',
+        date: '06/19/2018',
         address: '180 Woz Wy',
         city: 'San Jose',
         state: 'CA',
@@ -55,6 +63,8 @@ var listingsData = [
         image: '../img/h0.jpg'
     },
     {
+        seller: 'John Doe',
+        date: '07/26/1953',
         address: '665 Wool Creek Dr',
         city: 'San Jose',
         state: 'CA',
@@ -69,6 +79,8 @@ var listingsData = [
         image: '../img/r0.jpg'
     },
     {
+        seller: 'Jane Doe',
+        date: '07/08/2018',
         address: '1661 Senter Rd',
         city: 'San Jose',
         state: 'CA',
@@ -80,6 +92,8 @@ var listingsData = [
         image: '../img/parking.jpg'
     },
     {
+        seller: 'George Brown',
+        date: '03/07/1994',
         address: '830 N Capitol Ave',
         city: 'San Jose',
         state: 'CA',
@@ -95,6 +109,8 @@ var listingsData = [
         image: '../img/h1.jpg'
     },
     {
+        seller: 'Raven Collins',
+        date: '04/30/1995',
         address: '1377 Piedmont Rd',
         city: 'San Jose',
         state: 'CA',
@@ -110,6 +126,8 @@ var listingsData = [
         image: '../img/cd1.png'
     },
     {
+        seller: 'Tenille Kim',
+        date: '04/16/2007',
         address: '2635 Homestead Rd',
         city: 'Santa Clara',
         state: 'CA',
@@ -125,6 +143,8 @@ var listingsData = [
         image: '../img/r1.jpg'
     },
     {
+        seller: 'Emma Lina',
+        date: '05/05/2008',
         address: '3014 El Camino Real',
         city: 'Santa Clara',
         state: 'CA',
@@ -139,6 +159,8 @@ var listingsData = [
         image: '../img/apt2.jpg'
     },
     {
+        seller: 'Daniel Shay',
+        date: '10/30/2007',
         address: '275 Main St',
         city: 'Milpitas',
         state: 'CA',
@@ -152,6 +174,8 @@ var listingsData = [
         image: '../img/apt3.jpg'
     },
     {
+        seller: 'Robert Lee',
+        date: '04/11/2018',
         address: '680 Stanford Ave',
         city: 'Fremont',
         state: 'CA',
@@ -163,6 +187,8 @@ var listingsData = [
         image: '../img/desert.jpg'
     },
     {
+        seller: 'Steve Stubbs',
+        date: '02/14/2018',
         address: '1600 Amphitheatre Pkwy',
         city: 'Mountain View',
         state: 'CA',
@@ -177,6 +203,8 @@ var listingsData = [
         image: '../img/cd2.jpg'
     },
     {
+        seller: 'Rebecca Knox',
+        date: '01/30/2018',
         address: '231 Washington Ave',
         city: 'Sunnyvale',
         state: 'CA',
