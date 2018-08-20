@@ -74,8 +74,7 @@ export default class Listings extends Component {
 
       // else, display the long view
       return (
-        <div className='col-md-12 col-lg-6' key={index}>
-          <div className='listing'>
+          <div className='listing' key={index}>
             <div className='listing-img' style={{background: `url('${listing.image}') no-repeat center center`}}>
               <span className='address'>{listing.address}</span>
               <div className='details'>
@@ -111,7 +110,6 @@ export default class Listings extends Component {
               </span>
             </div>
           </div>
-        </div>
       )
     })
   }
