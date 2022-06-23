@@ -23,7 +23,7 @@
     "dev": "concurrently \"react-scripts start\" \"node-sass public/sass/main.scss src/index.css -w\""
   },
   "devDependencies": {
-    "jsdom": "^11.12.0",
+    "jsdom": "^16.5.0",
     "node-sass": "^4.9.3",
     "webpack-dev-server": "^3.1.5"
   }
